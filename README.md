@@ -1,134 +1,82 @@
-Credit Card Analysis Project – README
-📌 Project Overview
 
-This project focuses on Credit Card Transaction Analysis and Credit Card Customer Analysis using Power BI. The goal is to understand customer behaviour, spending patterns, revenue drivers, and operational trends through an interactive dashboard.
+---
 
-🎯 Objectives
+# 💳 Credit Card Analysis Project
 
-  To analyse and visualise credit card transactions and customer insights.
-  
-  To identify key revenue drivers, high‑value customers, and spending behaviour.
-  
-  To evaluate transaction patterns across time, geography, and merchant categories.
-  
-  To provide a dashboard that supports data‑driven decision‑making for business stakeholders.
-  
-  To help financial institutions improve targeting, risk assessment, and customer engagement.
+This repository contains the full Power BI project for **Credit Card Transaction Analysis** and **Credit Card Customer Analysis**. The project showcases data cleaning, modelling, DAX measures, dashboards, and business insights.
 
-🛠️ Steps Followed
-1. Data Collection & Understanding
+---
 
-  Imported credit card transaction dataset and customer dataset.
-  
-  Reviewed schema, data types, and initial structure.
+## 📌 Description
 
-2. Data Cleaning & Pre‑Processing
+This project focuses on analyzing **credit card spending patterns**, **customer behaviour**, and **transaction trends** using Power BI.
+It includes interactive dashboards that help identify key metrics such as revenue, active customers, category spending, geographic performance, and growth trends.
 
-  Handled missing values and removed duplicates.
-  
-  Standardised date formats (e.g., transaction_date, week_start_date).
-  
-  Converted columns to proper data types (numeric/text/date).
-  
-  Created calculated columns such as:
-  
-  Revenue / Transaction Amount
-  
-  Age Groups
-  
-  Transaction Categories
+The goal is to support **data-driven decision-making** for financial institutions, product teams, and marketing teams through actionable insights.
 
-3. Data Modelling
+---
 
-  Built a star schema model with fact and dimension tables.
-  
-  Created relationships between transactions and customer tables.
-  
-  Ensured proper cross‑filter direction.
+## 🚀 Features
 
-4. DAX Measures Development
+### ✔️ Data Engineering & Cleaning
 
-  Developed important metrics such as:
-  
-  Total Revenue
-  
-  Average Transaction Value
-  
-  Total Customers
-  
-  Repeat Rate
-  
-  YOY / WOW growth
-  
-  Customer Lifetime Value (CLTV)
+* Standardized inconsistent date formats
+* Fixed schema issues and null values
+* Added calculated columns (Age Group, Revenue, Category)
 
-5. Dashboard Building
+### 🧮 Power BI Modelling & DAX
 
-  Created two dashboards:
-  
-  Credit Card Transaction Report
-  
-  Credit Card Customer Report
-  
-  Used charts like:
-  
-  Line charts (trend analysis)
-  
-  Bar/Column charts (category breakdown)
-  
-  Donut/Pie charts (customer segments)
-  
-  Maps (regional spending)
-  
-  Cards (KPIs)
+* Fact + Dimension star schema
+* Key metrics such as:
 
-6. Insights & Interpretation
+  * Total Revenue
+  * Average Transaction Value
+  * Customer Lifetime Value (CLTV)
+  * YoY & WoW Growth
+  * High-Value Customer Index
 
-  Derived business insights based on dashboard visuals (see below).
+### 📊 Dashboards
 
-🔍 Key Insights
-1. Transaction Insights
+* **Credit Card Transaction Dashboard**
+* **Credit Card Customer Dashboard**
 
-  Peak transactions occur during weekends/month‑end.
-  
-  High spending categories: Travel, Dining, and E‑commerce.
-  
-  Revenue is majorly contributed by top-tier customers and specific regions.
-  
-  Notable growth/decline trends in transaction frequency over time.
+Includes:
 
-2. Customer Insights
+* KPI Cards
+* Category-wise Analysis
+* Geo-Map Visualization
+* Monthly/Weekly Trends
+* Customer Segmentation
+* Revenue Drivers
 
-  Majority of customers fall in the 25–40 age group, driving the highest revenue.
-  
-  High‑income professionals use credit cards more frequently.
-  
-  Loyal customers exhibit higher monthly spend and higher transaction count.
-  
-  Potential churn group identified through decreased monthly activity.
+### 🔍 Insights
 
-3. Risk & Behaviour Patterns
+* Peak revenue periods (month-end/weekend)
+* 25–40 age group contributes highest spending
+* Travel, Dining & E-commerce are top revenue categories
+* High-value customers drive majority of transactions
+* Drop in activity indicates potential churn segments
 
-  Certain segments show unusual spending spikes, requiring monitoring.
+---
 
-  Some regions have higher chargeback ratios compared to others.
+## 🛠️ Tools & Technologies Used
 
-📦 Final Deliverables
+* **Power BI**
+* **Power Query**
+* **DAX (Data Analysis Expressions)**
+* **Excel / CSV Data Source**
 
-  Cleaned Dataset
+---
 
-  Data Model
+## 🎯 Project Objectives
 
-  DAX Measures
+* Analyse customer and transaction behaviour
+* Identify spending patterns and revenue drivers
+* Build interactive dashboards for insights
+* Help financial institutions improve targeting and risk management
 
-  Power BI Dashboards:
+---
 
-  Credit Card Transaction Dashboard
 
-  Credit Card Customer Dashboard
-
-  Insight Summary
-
-📑 Conclusion
-
-  This project provides a comprehensive view of credit card usage patterns and customer behaviour. The insights help stakeholders make decisions related to marketing, risk management, and customer retention.
+✅ Add badges, icons, or screenshots
+✅ Generate a PDF or PowerPoint version
