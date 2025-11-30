@@ -76,7 +76,8 @@ Includes:
 * Help financial institutions improve targeting and risk management
 
 ---
+##📑 Conclusion
+
+This project provides a comprehensive view of credit card usage patterns and customer behaviour. The insights help stakeholders make decisions related to marketing, risk management, and customer retention.
 
 
-✅ Add badges, icons, or screenshots
-✅ Generate a PDF or PowerPoint version
